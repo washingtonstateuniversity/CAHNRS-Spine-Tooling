@@ -1,6 +1,7 @@
 /* CAHNRS header */
 .main-header {
 	background: none;
+	height: auto;
 }
 .cahnrs-header-group.gray,
 .has-featured-image .main-header .gray.opaque,
@@ -72,6 +73,7 @@
 	padding: 1rem 0;
 	position: relative;
 	text-transform: uppercase;
+	white-space: nowrap; /* ... until a better solution for longer unit names is found */
 	width: 100%;
 	z-index: 1;
 }
@@ -156,6 +158,47 @@
 	border-left: 1px solid #fff;
 	font-weight: bold;
 }
+
+/* Additional header styles for Extension */
+.extension-signature .cahnrs-header-group {
+	border-top: 5px solid #532400;
+}
+#extension-heading {
+	border-right: 1px solid #fff;
+	margin-right: 1rem;
+	padding-right: 1rem;
+}
+#cahnrs-heading + #extension-heading a {
+	-webkit-transition: opacity 0.8s ease-in-out;
+	transition:         opacity 0.8s ease-in-out;
+}
+#cahnrs-heading:hover + #extension-heading a/*,
+#extension-heading:hover > a,
+#extension-heading:hover ~ sup*/ {
+	opacity: 0.1;
+}
+#extension-heading {
+	-webkit-transition: border-right-color 0.8s ease-in-out;
+	transition:         border-right-color 0.8s ease-in-out;
+}
+#cahnrs-heading:hover + #extension-heading/*,
+#extension-heading:hover*/ {
+	border-right-color: rgba( 255, 255, 255, 0.1 );
+}
+/*#extension-heading:hover .quicklinks {
+	max-height: 12rem;
+	opacity: 1;
+	visibility: visible;
+}
+#extension-heading .quicklinks dt {
+	display: inline-block;
+	font-weight: normal;
+	padding-right: 0;
+	vertical-align: top;
+}
+#extension-heading .quicklinks li:first-of-type {
+	margin-top: 0;
+}*/
 
 /* Site name */
 .main-header sup span {
@@ -598,6 +641,11 @@ input[type=submit].cahnrs-search-submit:focus {
 	.full-bleed:after {
 		right: -9999rem;
 	}
+	.extension-signature .main-header .cahnrs-header-group:before,
+	.extension-signature .main-header .cahnrs-header-group:after {
+		border-top: inherit;
+		top: -5px;
+	}
 }
 
 @media screen and (max-width:989px) {
@@ -612,6 +660,19 @@ input[type=submit].cahnrs-search-submit:focus {
 }
 
 @media only screen and (max-width: 693px) {
+	.cahnrs-header-group {
+		white-space: normal;
+	}
+	#extension-heading {
+		border-right-color: transparent;
+	}
+	.cahnrs-header-group .quicklinks {
+		padding-top: 0;
+	}
+	.main-header sup {
+		display: block;
+		margin: 0.5rem 0 0 2rem;
+	}
 	.main-header sup span {
 		line-height: 1.75;
 	}
