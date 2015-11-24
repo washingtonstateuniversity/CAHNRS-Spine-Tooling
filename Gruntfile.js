@@ -34,14 +34,8 @@ module.exports = function(grunt) {
 		},
 
 		watch: {
-			styles: {
-				files: ['cahnrs.css'],
-				tasks: ['autoprefixer', 'cssmin', 'clean']
-			},
-			scripts: {
-				files: ['cahnrs.js'],
-				tasks: ['uglify']
-			}
+			files: ['cahnrs.css', 'cahnrs.js'],
+			tasks: ['default']
 		}
 
 	});
@@ -51,5 +45,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+
+	grunt.registerTask('default', ['autoprefixer', 'cssmin', 'uglify', 'clean']);
 
 };

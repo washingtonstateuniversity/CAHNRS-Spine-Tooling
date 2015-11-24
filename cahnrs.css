@@ -283,7 +283,6 @@
 .full-bleed.yellow-darker-back.vellum-95 { background: rgba( 119, 88, 12, 0.95 ); }
 .full-bleed.yellow-darkest-back.vellum-95 { background: rgba( 79, 58, 8, 0.96 ); }
 .full-bleed:before, .full-bleed:after { background: inherit; }
-/* I think this is done! */
 
 /* Splash */
 .splash {
