@@ -13,7 +13,7 @@
 
 	// Fixed header - set .main-header height.
 	$(window).on( 'load resize', function() {
-		if ( $( '.cahnrs-header-group' ).hasClass( 'fixed' ) && $( 'body:not(.page.has-featured-image)' ).is( '.single, .archive' ) ) {
+		if ( $( '.cahnrs-header-group:not(.disable-js)' ).hasClass( 'fixed' ) && $( 'body:not(.page.has-featured-image)' ).is( '.single, .archive' ) ) {
 			var cahnrs_header_height = $( '.cahnrs-header-group' ).outerHeight( true );
 			$( '.main-header' ).css( 'height', cahnrs_header_height );
 		}
