@@ -35,23 +35,23 @@
 }
 .has-featured-image .gray.vellum-50,
 .has-featured-image .gray.vellum-50 .quicklinks dl {
-	background: rgba( 94, 106, 113, 0.5 );
+	background: rgba(94,106,113,0.5);
 }
 .has-featured-image .green.vellum-50,
 .has-featured-image .green.vellum-50 .quicklinks dl {
-	background: rgba( 143, 126, 53, 0.5 );
+	background: rgba(143,126,53,0.5);
 }
 .has-featured-image .orange.vellum-50,
 .has-featured-image .orange.vellum-50 .quicklinks dl {
-	background: rgba( 182, 114, 51, 0.5 );
+	background: rgba(182,114,51,0.5);
 }
 .has-featured-image .blue.vellum-50,
 .has-featured-image .blue.vellum-50 .quicklinks dl {
-	background: rgba( 79, 134, 142, 0.5 );
+	background: rgba(79,134,142,0.5);
 }
 .has-featured-image .yellow.vellum-50,
 .has-featured-image .yellow.vellum-50 .quicklinks dl {
-	background: rgba( 198, 146, 20, 0.5 );
+	background: rgba(198,146,20,0.5);
 }
 .has-featured-image .main-header .vellum-100,
 .has-featured-image .main-header .vellum-100:not(.opaque) .quicklinks dl {
@@ -105,7 +105,7 @@
 	opacity: 0.1;
 }
 #cahnrs-heading:hover {
-	border-right-color: rgba( 255, 255, 255, 0.1 );
+	border-right-color: rgba(255,255,255,0.1);
 }
 .cahnrs-header-group .quicklinks {
 	display: block;
@@ -178,7 +178,7 @@
 }
 #cahnrs-heading:hover + #extension-heading/*,
 #extension-heading:hover*/ {
-	border-right-color: rgba( 255, 255, 255, 0.1 );
+	border-right-color: rgba(255,255,255,0.1);
 }
 /*#extension-heading:hover .quicklinks {
 	max-height: 12rem;
@@ -237,52 +237,231 @@
 }
 
 /* Full bleed */
-.full-bleed.gray-lightest-back.vellum-95 { background: rgba( 239, 240, 241, 0.95 ); }
-.full-bleed.gray-lightly-back.vellum-95 { background: rgba( 215, 218, 219, 0.95 ); }
-.full-bleed.gray-lighter-back.vellum-95 { background: rgba( 181, 186, 190, 0.95 ); }
-.full-bleed.gray-light-back.vellum-95 { background: rgba( 141, 149, 154, 0.95 ); }
-.full-bleed.gray-back.vellum-95 { background: rgba( 94, 106, 113, 0.95 ); }
-.full-bleed.gray-er-back.vellum-95 { background: rgba( 255, 255, 255, 0.95 ); }
-.full-bleed.gray-dark-back.vellum-95 { background: rgba( 70, 78, 84, 0.95 ); }
-.full-bleed.gray-darker-back.vellum-95 { background: rgba( 42, 48, 51, 0.95 ); }
-.full-bleed.gray-darkest-back.vellum-95 { background: rgba( 0, 0, 0, 0.95 ); }
-.full-bleed.green-lightest-back.vellum-95 { background: rgba( 244, 242, 235, 0.95 ); }
-.full-bleed.green-lightly-back.vellum-95 { background: rgba( 227, 223, 205, 0.95 ); }
-.full-bleed.green-lighter-back.vellum-95 { background: rgba( 203, 196, 162, 0.95 ); }
-.full-bleed.green-light-back.vellum-95 { background: rgba( 175, 163, 112, 0.95 ); }
-.full-bleed.green-back.vellum-95 { background: rgba( 143, 126, 53, 0.95 ); }
-.full-bleed.green-er-back.vellum-95 { background: rgba( 173, 164, 0, 0.95 ); }
-.full-bleed.green-dark-back.vellum-95 { background: rgba( 114, 101, 42, 0.95 ); }
-.full-bleed.green-darker-back.vellum-95 { background: rgba( 86, 76, 32, 0.95 ); }
-.full-bleed.green-darkest-back.vellum-95 { background: rgba( 57, 50, 21, 0.95 ); }
-.full-bleed.orange-lightest-back.vellum-95 { background: rgba( 248, 241, 235, 0.95 ); }
-.full-bleed.orange-lightly-back.vellum-95 { background: rgba( 237, 220, 204, 0.95 ); }
-.full-bleed.orange-lighter-back.vellum-95 { background: rgba( 221, 190, 161, 0.95 ); }
-.full-bleed.orange-light-back.vellum-95 { background: rgba( 203, 155, 110, 0.95 ); }
-.full-bleed.orange-back.vellum-95 { background: rgba( 182, 114, 51, 0.95 ); }
-.full-bleed.orange-er-back.vellum-95 { background: rgba( 211, 130, 53, 0.95 ); }
-.full-bleed.orange-dark-back.vellum-95 { background: rgba( 146, 91, 41, 0.95 ); }
-.full-bleed.orange-darker-back.vellum-95 { background: rgba( 109, 68, 31, 0.95 ); }
-.full-bleed.orange-darkest-back.vellum-95 { background: rgba( 73, 46, 20, 0.95 ); }
-.full-bleed.blue-lightest-back.vellum-95 { background: rgba( 237, 243, 244, 0.95 ); }
-.full-bleed.blue-lightly-back.vellum-95 { background: rgba( 211, 225, 227, 0.95 ); }
-.full-bleed.blue-lighter-back.vellum-95 { background: rgba( 174, 199, 203, 0.95 ); }
-.full-bleed.blue-light-back.vellum-95 { background: rgba( 130, 169, 175, 0.95 ); }
-.full-bleed.blue-back.vellum-95 { background: rgba( 79, 134, 142, 0.95 ); }
-.full-bleed.blue-er-back.vellum-95 { background: rgba( 0, 165, 189, 0.95 ); }
-.full-bleed.blue-dark-back.vellum-95 { background: rgba( 63, 107, 114, 0.95 ); }
-.full-bleed.blue-darker-back.vellum-95 { background: rgba( 47, 80, 85, 0.95 ); }
-.full-bleed.blue-darkest-back.vellum-95 { background: rgba( 32, 54, 57, 0.95 ); }
-.full-bleed.yellow-lightest-back.vellum-95 { background: rgba( 249, 244, 231, 0.95 ); }
-.full-bleed.yellow-lightly-back.vellum-95 { background: rgba( 241, 228, 196, 0.95 ); }
-.full-bleed.yellow-lighter-back.vellum-95 { background: rgba( 229, 205, 147, 0.95 ); }
-.full-bleed.yellow-light-back.vellum-95 { background: rgba( 215, 178, 88, 0.95 ); }
-.full-bleed.yellow-back.vellum-95 { background: rgba( 198, 146, 20, 0.95 ); }
-.full-bleed.yellow-er-back.vellum-95 { background: rgba( 255, 184, 28, 0.95 ); }
-.full-bleed.yellow-dark-back.vellum-95 { background: rgba( 158, 117, 16, 0.95 ); }
-.full-bleed.yellow-darker-back.vellum-95 { background: rgba( 119, 88, 12, 0.95 ); }
-.full-bleed.yellow-darkest-back.vellum-95 { background: rgba( 79, 58, 8, 0.96 ); }
-.full-bleed:before, .full-bleed:after { background: inherit; }
+.full-bleed.gray-lightest-back.vellum-95,
+.full-bleed.-back.vellum-95:before,
+.full-bleed.-back.vellum-95:after {
+	background: rgba(239,240,241,0.95);
+}
+.full-bleed.gray-lightly-back.vellum-95,
+.full-bleed.gray-lightly-back.vellum-95:before,
+.full-bleed.gray-lightly-back.vellum-95:after {
+	background: rgba(215,218,219,0.95);
+}
+.full-bleed.gray-lighter-back.vellum-95,
+.full-bleed.gray-lighter-back.vellum-95:before,
+.full-bleed.gray-lighter-back.vellum-95:after {
+	background: rgba(181,186,190,0.95);
+}
+.full-bleed.gray-light-back.vellum-95,
+.full-bleed.gray-light-back.vellum-95:before,
+.full-bleed.gray-light-back.vellum-95:after {
+	background: rgba(141,149,154,0.95);
+}
+.full-bleed.gray-back.vellum-95,
+.full-bleed.gray-back.vellum-95:before,
+.full-bleed.gray-back.vellum-95:after {
+	background: rgba(94,106,113,0.95);
+}
+.full-bleed.gray-er-back.vellum-95,
+.full-bleed.gray-er-back.vellum-95:before,
+.full-bleed.gray-er-back.vellum-95:after {
+	background: rgba(255,255,255,0.95);
+}
+.full-bleed.gray-dark-back.vellum-95,
+.full-bleed.gray-dark-back.vellum-95:before,
+.full-bleed.gray-dark-back.vellum-95:after {
+	background: rgba(70,78,84,0.95);
+}
+.full-bleed.gray-darker-back.vellum-95,
+.full-bleed.gray-darker-back.vellum-95:before,
+.full-bleed.gray-darker-back.vellum-95:after {
+	background: rgba(42,48,51,0.95);
+}
+.full-bleed.gray-darkest-back.vellum-95,
+.full-bleed.gray-darkest-back.vellum-95:before,
+.full-bleed.gray-darkest-back.vellum-95:after {
+	background: rgba(0,0,0,0.95);
+}
+.full-bleed.green-lightest-back.vellum-95,
+.full-bleed.green-lightest-back.vellum-95:before,
+.full-bleed.green-lightest-back.vellum-95:after {
+	background: rgba(244,242,235,0.95);
+}
+.full-bleed.green-lightly-back.vellum-95,
+.full-bleed.green-lightly-back.vellum-95:before,
+.full-bleed.green-lightly-back.vellum-95:after {
+	background: rgba(227,223,205,0.95);
+}
+.full-bleed.green-lighter-back.vellum-95,
+.full-bleed.green-lighter-back.vellum-95:before,
+.full-bleed.green-lighter-back.vellum-95:after {
+	background: rgba(203,196,162,0.95);
+}
+.full-bleed.green-light-back.vellum-95,
+.full-bleed.green-light-back.vellum-95:before,
+.full-bleed.green-light-back.vellum-95:after {
+	background: rgba(175,163,112,0.95);
+}
+.full-bleed.green-back.vellum-95,
+.full-bleed.green-back.vellum-95:before,
+.full-bleed.green-back.vellum-95:after {
+	background: rgba(143,126,53,0.95);
+}
+.full-bleed.green-er-back.vellum-95,
+.full-bleed.green-er-back.vellum-95:before,
+.full-bleed.green-er-back.vellum-95:after {
+	background: rgba(173,164,0,0.95);
+}
+.full-bleed.green-dark-back.vellum-95,
+.full-bleed.green-dark-back.vellum-95:before,
+.full-bleed.green-dark-back.vellum-95:after {
+	background: rgba(114,101,42,0.95);
+}
+.full-bleed.green-darker-back.vellum-95,
+.full-bleed.green-darker-back.vellum-95:before,
+.full-bleed.green-darker-back.vellum-95:after {
+	background: rgba(86,76,32,0.95);
+}
+.full-bleed.green-darkest-back.vellum-95,
+.full-bleed.green-darkest-back.vellum-95:before,
+.full-bleed.green-darkest-back.vellum-95:after {
+	background: rgba(57,50,21,0.95);
+}
+.full-bleed.orange-lightest-back.vellum-95,
+.full-bleed.orange-lightest-back.vellum-95:before,
+.full-bleed.orange-lightest-back.vellum-95:after {
+	background: rgba(248,241,235,0.95);
+}
+.full-bleed.orange-lightly-back.vellum-95,
+.full-bleed.orange-lightly-back.vellum-95:before,
+.full-bleed.orange-lightly-back.vellum-95:after {
+	background: rgba(237,220,204,0.95);
+}
+.full-bleed.orange-lighter-back.vellum-95,
+.full-bleed.orange-lighter-back.vellum-95:before,
+.full-bleed.orange-lighter-back.vellum-95:after {
+	background: rgba(221,190,161,0.95);
+}
+.full-bleed.orange-light-back.vellum-95,
+.full-bleed.orange-light-back.vellum-95:before,
+.full-bleed.orange-light-back.vellum-95:after {
+	background: rgba(203,155,110,0.95);
+}
+.full-bleed.orange-back.vellum-95,
+.full-bleed.-back.vellum-95:before,
+.full-bleed.-back.vellum-95:after {
+	background: rgba(182,114,51,0.95);
+}
+.full-bleed.orange-er-back.vellum-95,
+.full-bleed.orange-er-back.vellum-95:before,
+.full-bleed.orange-er-back.vellum-95:after {
+	background: rgba(211,130,53,0.95);
+}
+.full-bleed.orange-dark-back.vellum-95,
+.full-bleed.orange-dark-back.vellum-95:before,
+.full-bleed.orange-dark-back.vellum-95:after {
+	background: rgba(146,91,41,0.95);
+}
+.full-bleed.orange-darker-back.vellum-95,
+.full-bleed.orange-darker-back.vellum-95:before,
+.full-bleed.orange-darker-back.vellum-95:after {
+	background: rgba(109,68,31,0.95);
+}
+.full-bleed.orange-darkest-back.vellum-95,
+.full-bleed.orange-darkest-back.vellum-95:before,
+.full-bleed.orange-darkest-back.vellum-95:after {
+	background: rgba(73,46,20,0.95);
+}
+.full-bleed.blue-lightest-back.vellum-95,
+.full-bleed.blue-lightest-back.vellum-95:before,
+.full-bleed.blue-lightest-back.vellum-95:after {
+	background: rgba(237,243,244,0.95);
+}
+.full-bleed.blue-lightly-back.vellum-95,
+.full-bleed.blue-lightly-back.vellum-95:before,
+.full-bleed.blue-lightly-back.vellum-95:after {
+	background: rgba(211,225,227,0.95);
+}
+.full-bleed.blue-lighter-back.vellum-95,
+.full-bleed.blue-lighter-back.vellum-95:before,
+.full-bleed.blue-lighter-back.vellum-95:after {
+	background: rgba(174,199,203,0.95);
+}
+.full-bleed.blue-light-back.vellum-95,
+.full-bleed.blue-light-back.vellum-95:before,
+.full-bleed.blue-light-back.vellum-95:after {
+	background: rgba(130,169,175,0.95);
+}
+.full-bleed.blue-back.vellum-95,
+.full-bleed.blue-back.vellum-95:before,
+.full-bleed.blue-back.vellum-95:after {
+	background: rgba(79,134,142,0.95);
+}
+.full-bleed.blue-er-back.vellum-95,
+.full-bleed.blue-er-back.vellum-95:before,
+.full-bleed.blue-er-back.vellum-95:after {
+	background: rgba(0,165,189,0.95);
+}
+.full-bleed.blue-dark-back.vellum-95,
+.full-bleed.blue-dark-back.vellum-95:before,
+.full-bleed.blue-dark-back.vellum-95:after {
+	background: rgba(63,107,114,0.95);
+}
+.full-bleed.blue-darker-back.vellum-95,
+.full-bleed.blue-darker-back.vellum-95:before,
+.full-bleed.blue-darker-back.vellum-95:after {
+	background: rgba(47,80,85,0.95);
+}
+.full-bleed.blue-darkest-back.vellum-95,
+.full-bleed.blue-darkest-back.vellum-95:before,
+.full-bleed.blue-darkest-back.vellum-95:after {
+	background: rgba(32,54,57,0.95);
+}
+.full-bleed.yellow-lightest-back.vellum-95,
+.full-bleed.yellow-lightest-back.vellum-95:before,
+.full-bleed.yellow-lightest-back.vellum-95:after {
+	background: rgba(249,244,231,0.95);
+}
+.full-bleed.yellow-lightly-back.vellum-95,
+.full-bleed.yellow-lightly-back.vellum-95:before,
+.full-bleed.yellow-lightly-back.vellum-95:after {
+	background: rgba(241,228,196,0.95);
+}
+.full-bleed.yellow-lighter-back.vellum-95,
+.full-bleed.yellow-lighter-back.vellum-95:before,
+.full-bleed.yellow-lighter-back.vellum-95:after {
+	background: rgba(229,205,147,0.95);
+}
+.full-bleed.yellow-light-back.vellum-95,
+.full-bleed.yellow-light-back.vellum-95:before,
+.full-bleed.yellow-light-back.vellum-95:after {
+	background: rgba(215,178,88,0.95);
+}
+.full-bleed.yellow-back.vellum-95,
+.full-bleed.yellow-back.vellum-95:before,
+.full-bleed.yellow-back.vellum-95:after {
+	background: rgba(198,146,20,0.95);
+}
+.full-bleed.yellow-er-back.vellum-95,
+.full-bleed.yellow-er-back.vellum-95:before,
+.full-bleed.yellow-er-back.vellum-95:after {
+	background: rgba(255,184,28,0.95);
+}
+.full-bleed.yellow-dark-back.vellum-95,
+.full-bleed.yellow-dark-back.vellum-95:before,
+.full-bleed.yellow-dark-back.vellum-95:after {
+	background: rgba(158,117,16,0.95);
+}
+.full-bleed.yellow-darker-back.vellum-95,
+.full-bleed.yellow-darker-back.vellum-95:before,
+.full-bleed.yellow-darker-back.vellum-95:after {
+	background: rgba(119,88,12,0.95);
+}
+.full-bleed.yellow-darkest-back.vellum-95,
+.full-bleed.yellow-darkest-back.vellum-95:before,
+.full-bleed.yellow-darkest-back.vellum-95:after {
+	background: rgba(79,58,8,0.96 );
+}
 
 /* Splash */
 .splash {
@@ -327,7 +506,7 @@
 	color: #fff;
 }
 .more-button.white a:hover {
-	background-color: rgba( 255, 255, 255, 0.8 );
+	background-color: rgba(255, 255, 255, 0.8 );
 	color: #981e32;
 }
 
@@ -664,7 +843,7 @@ input[type=submit].cahnrs-search-submit:focus {
 	.hybrid.max-1386 > main > div > .row.margin-left > .column.two,
 	.hybrid.max-1386 > main > div > .row.margin-right > .column.one,
 	.hybrid.max-1386 .cpb-section > .row.margin-left > .column.two,
-	.hybrid.max-1386 .cpb-section > .row.margin-right > .column.one, {
+	.hybrid.max-1386 .cpb-section > .row.margin-right > .column.one {
 		width: 594px;
 	}
 	.hybrid.max-1188 > main > .row.margin-left > .column.one,
@@ -672,13 +851,13 @@ input[type=submit].cahnrs-search-submit:focus {
 	.hybrid.max-1188 > main > div > .row.margin-left > .column.one,
 	.hybrid.max-1188 > main > div > .row.margin-right > .column.two,
 	.hybrid.max-1188 .cpb-section > .row.margin-left > .column.one,
-	.hybrid.max-1188 .cpb-section > .row.margin-right > .column.two,,
+	.hybrid.max-1188 .cpb-section > .row.margin-right > .column.two,
 	.hybrid.max-1386 > main > .row.margin-left > .column.one,
 	.hybrid.max-1386 > main > .row.margin-right > .column.two,
 	.hybrid.max-1386 > main > div > .row.margin-left > .column.one,
 	.hybrid.max-1386 > main > div > .row.margin-right > .column.two,
 	.hybrid.max-1386 .cpb-section > .row.margin-left > .column.one,
-	.hybrid.max-1386 .cpb-section > .row.margin-right > .column.two, {
+	.hybrid.max-1386 .cpb-section > .row.margin-right > .column.two {
 		width: 198px;
 	}
 	.hybrid.max-1188 > main > .row.side-left > .column.two,
