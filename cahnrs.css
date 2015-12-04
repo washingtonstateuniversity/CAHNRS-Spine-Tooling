@@ -265,6 +265,199 @@
 }
 
 /* Full bleed */
+.full-bleed.crimson-back:before,
+.full-bleed.crimson-back:after {
+	background: #981e32;
+}
+.full-bleed.crimson-er-back:before,
+.full-bleed.crimson-er-back:after {
+	background: #c60c30;
+}
+.full-bleed.gray-lightest-back:before,
+.full-bleed.gray-lightest-back:after {
+	background: #eff0f1;
+}
+.full-bleed.gray-lightly-back:before,
+.full-bleed.gray-lightly-back:after {
+	background: #d7dadb;
+}
+.full-bleed.gray-lighter-back:before,
+.full-bleed.gray-lighter-back:after {
+	background: #b5babe;
+}
+.full-bleed.gray-light-back:before,
+.full-bleed.gray-light-back:after {
+	background: #8d959a;
+}
+.full-bleed.gray-back:before,
+.full-bleed.gray-back:after {
+	background: #5e6a71;
+}
+.full-bleed.gray-er-back:before,
+.full-bleed.gray-er-back:after {
+	background: #fff;
+}
+.full-bleed.gray-dark-back:before,
+.full-bleed.gray-dark-back:after {
+	background: #464e54;
+}
+.full-bleed.gray-darker-back:before,
+.full-bleed.gray-darker-back:after {
+	background: #2a3033;
+}
+.full-bleed.gray-darkest-back:before,
+.full-bleed.gray-darkest-back:after {
+	background: #000;
+}
+.full-bleed.green-lightest-back:before,
+.full-bleed.green-lightest-back:after {
+	background: #f4f2eb;
+}
+.full-bleed.green-lightly-back:before,
+.full-bleed.green-lightly-back:after {
+	background: #e3dfcd;
+}
+.full-bleed.green-lighter-back:before,
+.full-bleed.green-lighter-back:after {
+	background: #cbc4a2;
+}
+.full-bleed.green-light-back:before,
+.full-bleed.green-light-back:after {
+	background: #afa370;
+}
+.full-bleed.green-back:before,
+.full-bleed.green-back:after {
+	background: #8f7e35;
+}
+.full-bleed.green-er-back:before,
+.full-bleed.green-er-back:after {
+	background: #ada400;
+}
+.full-bleed.green-dark-back:before,
+.full-bleed.green-dark-back:after {
+	background: #72652a;
+}
+.full-bleed.green-darker-back:before,
+.full-bleed.green-darker-back:after {
+	background: #564c20;
+}
+.full-bleed.green-darkest-back:before,
+.full-bleed.green-darkest-back:after {
+	background: #393215;
+}
+.full-bleed.orange-lightest-back:before,
+.full-bleed.orange-lightest-back:after {
+	background: #f8f1eb;
+}
+.full-bleed.orange-lightly-back:before,
+.full-bleed.orange-lightly-back:after {
+	background: #eddccc;
+}
+.full-bleed.orange-lighter-back:before,
+.full-bleed.orange-lighter-back:after {
+	background: #ddbea1;
+}
+.full-bleed.orange-light-back:before,
+.full-bleed.orange-light-back:after {
+	background: #cb9b6e;
+}
+.full-bleed.orange-back:before,
+.full-bleed.orange-back:after {
+	background: #b67233;
+}
+.full-bleed.orange-er-back:before,
+.full-bleed.orange-er-back:after {
+	background: #f6861f;
+}
+.full-bleed.orange-dark-back:before,
+.full-bleed.orange-dark-back:after {
+	background: #925b29;
+}
+.full-bleed.orange-darker-back:before,
+.full-bleed.orange-darker-back:after {
+	background: #6d441f;
+}
+.full-bleed.orange-darkest-back:before,
+.full-bleed.orange-darkest-back:after {
+	background: #492e14;
+}
+.full-bleed.blue-lightest-back:before,
+.full-bleed.blue-lightest-back:after {
+	background: #edf3f4;
+}
+.full-bleed.blue-lightly-back:before,
+.full-bleed.blue-lightly-back:after {
+	background: #d3e1e3;
+}
+.full-bleed.blue-lighter-back:before,
+.full-bleed.blue-lighter-back:after {
+	background: #aec7cb;
+}
+.full-bleed.blue-light-back:before,
+.full-bleed.blue-light-back:after {
+	background: #82a9af;
+}
+.full-bleed.blue-back:before,
+.full-bleed.blue-back:after {
+	background: #4f868e;
+}
+.full-bleed.blue-er-back:before,
+.full-bleed.blue-er-back:after {
+	background: #00a5bd;
+}
+.full-bleed.blue-dark-back:before,
+.full-bleed.blue-dark-back:after {
+	background: #3f6b72;
+}
+.full-bleed.blue-darker-back:before,
+.full-bleed.blue-darker-back:after {
+	background: #2f5055;
+}
+.full-bleed.blue-darkest-back:before,
+.full-bleed.blue-darkest-back:after {
+	background: #203639;
+}
+.full-bleed.yellow-lightest-back:before,
+.full-bleed.yellow-lightest-back:after {
+	background: #f9f4e7;
+}
+.full-bleed.yellow-lightly-back:before,
+.full-bleed.yellow-lightly-back:after {
+	background: #f1e4c4;
+}
+.full-bleed.yellow-lighter-back:before,
+.full-bleed.yellow-lighter-back:after {
+	background: #e5cd93;
+}
+.full-bleed.yellow-light-back:before,
+.full-bleed.yellow-light-back:after {
+	background: #d7b258;
+}
+.full-bleed.yellow-back:before,
+.full-bleed.yellow-back:after {
+	background: #c69214;
+}
+.full-bleed.yellow-er-back:before,
+.full-bleed.yellow-er-back:after {
+	background: #ffb81c;
+}
+.full-bleed.yellow-dark-back:before,
+.full-bleed.yellow-dark-back:after {
+	background: #9e7510;
+}
+.full-bleed.yellow-darker-back:before,
+.full-bleed.yellow-darker-back:after {
+	background: #77580c;
+}
+.full-bleed.yellow-darkest-back:before,
+.full-bleed.yellow-darkest-back:after {
+	background: #4f3a08;
+}
+.full-bleed.crimson-er-back.vellum-95,
+.full-bleed.crimson-er-back.vellum-95:before,
+.full-bleed.crimson-er-back.vellum-95:after {
+	background: rgba(198,12,48,0.95);
+}
 .full-bleed.gray-lightest-back.vellum-95,
 .full-bleed.gray-lightest-back.vellum-95:before,
 .full-bleed.gray-lightest-back.vellum-95:after {
