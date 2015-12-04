@@ -266,8 +266,8 @@
 
 /* Full bleed */
 .full-bleed.gray-lightest-back.vellum-95,
-.full-bleed.-back.vellum-95:before,
-.full-bleed.-back.vellum-95:after {
+.full-bleed.gray-lightest-back.vellum-95:before,
+.full-bleed.gray-lightest-back.vellum-95:after {
 	background: rgba(239,240,241,0.95);
 }
 .full-bleed.gray-lightly-back.vellum-95,
@@ -376,8 +376,8 @@
 	background: rgba(203,155,110,0.95);
 }
 .full-bleed.orange-back.vellum-95,
-.full-bleed.-back.vellum-95:before,
-.full-bleed.-back.vellum-95:after {
+.full-bleed.orange-back.vellum-95:before,
+.full-bleed.orange-back.vellum-95:after {
 	background: rgba(182,114,51,0.95);
 }
 .full-bleed.orange-er-back.vellum-95,
