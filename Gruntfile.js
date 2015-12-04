@@ -27,13 +27,6 @@ module.exports = function(grunt) {
 			},
 		},
 
-		copy: {
-			main: {
-				src: 'images/*',
-				dest: 'build/',
-  		},
-		},
-
 		clean: {
   		temporary: {
 				src: ['build/cahnrs.css']
@@ -54,6 +47,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
-	grunt.registerTask('default', ['autoprefixer', 'cssmin', 'uglify', 'copy', 'clean']);
+	grunt.registerTask('default', ['autoprefixer', 'cssmin', 'uglify', 'clean']);
 
 };
